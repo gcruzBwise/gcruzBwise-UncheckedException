@@ -14,6 +14,9 @@ public class Lab {
      * event happens, like running out of computer memory.
      */
     public void throwUncheckedException(){
-
+        int a = 0, b = 10;
+        int c = b/a;
+        System.out.println("Value of c is : "+ c);
+       //  ArithmeticExeption is occurred due to denominator value is zero.
     }
 }
